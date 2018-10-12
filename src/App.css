@@ -1,0 +1,103 @@
+
+.app-container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.app-header{
+  
+  height: 50px;
+  box-shadow: 1px 1px 1px 1px #d0d0d0;
+}
+
+.app-header>button{
+  float: right;
+  margin-right: 12px;
+  margin-top:10px;
+}
+
+.app-left-pane{
+  margin-top:50px;
+  position: fixed;
+  width:400px;
+  box-shadow: 1px 1px 1px 1px #d0d0d0;
+  min-height: 100vw;
+}
+.app-left-pane>div{
+  padding-left:40px;
+}
+
+.app-right-pane{
+  margin-left: 400px;
+}
+.app-list-header{
+  display: inline;;
+}
+.app-list-header>button{
+  float: right;
+  margin-right: 10px;
+}
+.user-list-row{
+  margin-left:20px;
+  padding:10px 5px;
+  border:1px solid #d0d0d0;
+  margin-top: 15px;
+  border-left: transparent;
+}
+.user-list-row>div{
+  display: inline;
+  margin-right: 20px;
+}
+.app-modal-container{
+  left:0;
+  right: 0;
+  top:0;
+  bottom: 0;
+  position: fixed;
+  background: rgba(208, 208, 208,0.7);
+}
+.app-modal{
+  margin: 150px auto;
+  width: 500px;;
+  min-height: 400px;
+  background: white;
+  box-shadow: 1px 1px 20px 0px black;
+}
+.app-modal-header{
+  text-align: right;
+  font-size: 3em;
+  margin-right: 12px;
+}
+.app-modal-header>span{
+  cursor: pointer;
+}
+
+.user-details-view{
+  padding:50px;
+  font-size: 22px;
+}
+.user-details-view>div{
+ margin:40px 0px;
+}
+.user-details-view .value{
+  border-bottom: 1px solid #d0d0d0;
+  padding:0px;
+  text-align: justify;
+}
+.add-user-form > div{
+  display:block;
+  padding: 0px 20px;
+  width: 100%;;
+  margin: 12px 5px;
+}
+label{
+  font-weight: 500;
+}
+/*colors*/
+.btn-deep-blue{
+  background-color: #0D47A1;
+  color:white;
+}
+.btn-circle {
+  border-radius: 50% !important;
+}
